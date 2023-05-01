@@ -70,7 +70,11 @@ export const Navbar: FC = ({}) => {
             </Grid>
 
             <Grid item style={{ alignItems: "center" }}>
-              <Clickable newPage address="/app/drop/0" hoverAnimation={false}>
+              <Clickable
+                newPage
+                address="https://app.premierstudio.xyz/drop/0"
+                hoverAnimation={false}
+              >
                 <Typos.NavbarLink style={{ backgroundColor: theme.colors.primary }}>
                   Enter App
                 </Typos.NavbarLink>
@@ -147,7 +151,11 @@ export const Navbar: FC = ({}) => {
                 sx={{ display: { xs: "none", md: "flex" } }}
                 style={{ alignItems: "center" }}
               >
-                <Clickable newPage address="/app/drop/0" hoverAnimation={false}>
+                <Clickable
+                  newPage
+                  address="https://app.premierstudio.xyz/drop/0"
+                  hoverAnimation={false}
+                >
                   <Typos.NavbarLink style={{ backgroundColor: theme.colors.primary }}>
                     Enter App
                   </Typos.NavbarLink>
